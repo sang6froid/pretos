@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+form{
+    margin-top: 8%;
+    padding: 40px 60px;
+    min-width:  300px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background:white;
+}
+form h1{
+    color: orangered;
+    text-align: center;
+}
+form p.Inscription{
+    text-align: center;
+    color: orangered;
+    margin-bottom: 20px;
+}
+a{
+    color: orangered;
+    text-decoration: none;
+}
+form .input{
+    display: flex;
+    flex-direction: column;
+}
+form .input input[type="email"], input[type="password"]{
+    padding: 10px;
+    border-radius: 55px;
+    margin-bottom: 15px;
+   outline: none;
+    border: 1px solid #DF6D14;
+    
+}
+form button{
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: white;
+    background: orangered;
+    border: none;
+    cursor: pointer;
+}

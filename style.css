@@ -1,0 +1,180 @@
+body{
+    background-image:url("image/Group 6.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*definir la position de l'image de l'arriere plan si elle est fixée*/
+    background-position-x: 88%;/*definir la position horizontale d'arriere plan*/
+    background-position-y: 5%;/*definir la position verticale de l'arriere plan*/
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;  
+}
+.myDiv { /*elle est utilisée comme conteneur pour le HTML  qui seront ensuite stylisés avec CSS*/
+    font-size: large;
+    margin-top: 10%;
+    margin-left: 135px;
+    color: black;    
+    text-align: left;
+    margin-right:65%;
+ }
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: none;
+    padding-top: 15px;
+    text-align: center;
+}
+#navbar2{
+    list-style-type: none;
+    padding-left: 135px;
+}
+#navbar2 a{
+    text-decoration: none;
+}
+#rcorners2 {
+    text-decoration: none;
+	color: white;
+	text-align:center;
+    border-radius: 25px;
+    background: #DF6D14;
+    padding: 11px;
+    width: 90px;
+    height: 20px;
+    margin-top: 10px;
+}
+.item-nav:nth-child(1) a{
+    text-align: center;
+}
+.item-nav:nth-child(6) a{
+   background-color: #DF6D14;
+   border-radius: 25px;
+   color: white;
+   padding: 11px;
+   padding-right: 25px; 
+   padding-left: 25px; 
+   
+}
+.item-nav:nth-child(5) a{
+  color: orangered;
+padding-left: 205px;
+}
+nav .logo{
+    margin-left: 140px;
+}
+.logo{
+    list-style-type: none;
+}
+li.logo a{
+    text-decoration: none;
+    color: black;
+    margin-left: 135px;
+}
+li.logo{
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: -55px;
+}
+.liste-nav{
+    width: 100%;
+    height: 70%;
+    margin-left: 140px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.item-nav{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.item-nav a{
+text-decoration: none;
+color: black;
+
+}
+.btn-toggle-container{
+cursor: pointer;
+position: absolute;
+top: 15px;
+right: 15px;
+display: none;
+}
+.btn-toggle-container img{
+    width: 4Opx;
+}
+@media screen and (max-width: 600px) {
+    .btn-toggle-container{
+        display: block;
+    }
+    .logo{
+        margin-top: 40px;
+        margin-left: -75px;
+    }
+    nav{
+        border-bottom: 1px solid transparent ;
+    }
+    #navbar2{
+        list-style-type: none;
+        padding-left: 45px;
+    }
+    #rcorners2 {
+        text-decoration: none;
+        color: white;
+        text-align:center;
+        border-radius: 25px;
+        background: #df6d14;
+        padding: 11px;
+        width: 455px;
+        height: 20px;
+        margin-top: 255px;
+    }
+    .item-nav:nth-child(5) a{
+        color: orangered;
+        padding: 15px;
+      }
+    .item-nav:nth-child(6) a{
+        color:white;
+      }
+    .item-nav a{
+        text-decoration: none;
+        color: white;
+        }
+    .liste-nav{
+        position: relative;
+        top: 60px;
+        display: none;
+        text-align: center;
+       margin-left: 5px;
+    }
+    .item-nav{
+        display: block;
+        background:#DF6D14;
+        margin: 0;
+        margin-right: 105px;
+        margin-left: 95px;
+        line-height: 75px;
+    }
+    .liste-nav.active-menu{
+        display: block;
+    }
+    body{
+        background-image:url("image/Group 6.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;/*definir la position de l'image de l'arriere plan si elle est fixée*/
+        background-position-x: 40%;/*definir la position horizontale d'arriere plan*/
+        background-position-y: 85%;/*definir la position verticale de l'arriere plan*/
+        background-size: 45%;
+    }
+    .myDiv{
+        font-size: x-small;
+         text-align: center;
+         margin-right:175px;
+         margin-left: 135px;
+        margin-top: 125px;
+     }
+     div.btn-toggle-container{
+        margin-right: 70px;
+        margin-top: 25px;
+     }
+     
+
+}

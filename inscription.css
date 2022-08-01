@@ -1,0 +1,53 @@
+form {
+  text-align: center;
+  margin-top: 25%;
+  padding: 40px 80px;
+  min-width:  300px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background:white;
+}
+form .corps-formulaire { /* Pour aligner tout les éléments au millieu de du cadre */
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+
+}
+
+form .corps-formulaire .boite input{ /* Modifie le formulaire */
+  padding: 10px;
+  padding-right: 105px;
+  border-radius: 55px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid #DF6D14;
+}
+form .corps-formulaire .centre h1{
+  color: orangered;
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+form button{
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-right: 35px;
+  color: white;
+  background: orangered;
+  border: none;
+  cursor: pointer;
+}
+ul .pied-f{
+  
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
