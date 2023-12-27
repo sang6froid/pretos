@@ -8,14 +8,18 @@ body{
 h1{
     font-family: sans-serif;
     font-weight: bolder;  
+     text-align: start;
 }
 .myDiv { /*elle est utilisée comme conteneur pour le HTML  qui seront ensuite stylisés avec CSS*/
     font-size: large;
     margin-top: 10%;
     margin-left: 135px;
     color: black;    
-    text-align: left;
-    margin-right:65%;
+    text-align: start;
+    margin-right:50%;
+ }
+ p{
+    margin-right:25%;
  }
 nav{
     height: 70px;
@@ -31,17 +35,30 @@ nav{
 #navbar2 a{
     text-decoration: none;
 }
-#rcorners2 {
-    text-decoration: none;
-	color: white;
-	text-align:center;
+
+.btn-primary{
+    --bs-btn-bg:#df6d14;
+    --bs-btn-border-color: #df6d14;
     border-radius: 25px;
-    background: #DF6D14;
-    padding: 11px;
-    width: 90px;
-    height: 20px;
-    margin-top: 10px;
+   margin-right: 62rem;
+   
+
 }
+.btn{
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-radius: 50px;
+    --bs-btn-hover-bg: #df6d14;
+    --bs-btn-hover-border-color: #df6d14;
+    --bs-btn-active-color:#df6d14;
+--bs-btn-active-bg: white;
+--bs-btn-active-border-color: #df6d14;
+--bs-btn-color:white;
+--bs-btn-hover-color:white;
+width: 125px;
+margin-bottom: -25px;
+
+}
+
 .item-nav:nth-child(1) a{
     text-align: center;
 }
@@ -102,79 +119,122 @@ display: none;
     width: 4Opx;
 }
 @media screen and (max-width: 600px) {
-    .btn-toggle-container{
+    .btn-toggle-container {
         display: block;
+        margin-right: 15px; /* Ajustement de la marge */
     }
-    .logo{
-        margin-top: 40px;
-        margin-left: -75px;
+
+    .logo {
+        margin-top: 10px; /* Ajustement de la marge */
+        margin-left: -125px; /* Réinitialisation de la marge */
+        
     }
-    nav{
-        border-bottom: 1px solid transparent ;
+
+    nav {
+        border-bottom: 1px solid transparent;
     }
-    #navbar2{
+
+    #navbar2 {
         list-style-type: none;
-        padding-left: 45px;
+        padding-left: 15px; /* Ajustement de la marge */
     }
-    #rcorners2 {
-        text-decoration: none;
-        color: white;
-        text-align:center;
-        border-radius: 25px;
-        background: #df6d14;
-        padding: 11px;
-        width: 455px;
-        height: 20px;
-        margin-top: 255px;
+
+    .button.btn.btn-primary {
+        margin-top: 50px;
     }
-    .item-nav:nth-child(5) a{
+    .btn-primary{
+    --bs-btn-bg:#df6d14;
+    --bs-btn-border-color: #df6d14;
+    margin-right: 0;
+    margin-top: 50%;
+  
+    }
+    .btn{
+        --bs-btn-font-weight: 600;
+        --bs-btn-border-radius: 50px;
+        --bs-btn-hover-bg: #df6d14;
+        --bs-btn-hover-border-color: #df6d14;
+        --bs-btn-active-color:#df6d14;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: #df6d14;
+    --bs-btn-color:white;
+    --bs-btn-hover-color:white;
+    --bs-btn-border-width: 5px;
+    width: 400px;
+    
+    }
+
+    .item-nav:nth-child(5) a {
         color: orangered;
         padding: 15px;
-      }
-    .item-nav:nth-child(6) a{
-        color:white;
-      }
-    .item-nav a{
+    }
+
+    .item-nav:nth-child(6) a {
+        color: white;
+    }
+
+    .item-nav a {
         text-decoration: none;
         color: white;
-        }
-    .liste-nav{
+    }
+
+    .liste-nav {
         position: relative;
-        top: 60px;
+        top: 10px; /* Ajustement de la position */
         display: none;
         text-align: center;
-       margin-left: 5px;
+        margin-left: 0; /* Réinitialisation de la marge */
     }
-    .item-nav{
+
+    .item-nav {
         display: block;
-        background:#DF6D14;
+        background:black;
         margin: 0;
-        margin-right: 105px;
-        margin-left: 95px;
-        line-height: 75px;
+        margin-right: 15px; /* Ajustement de la marge */
+        margin-left: 15px; /* Ajustement de la marge */
+        line-height: 45px; /* Ajustement de la hauteur de ligne */
     }
-    .liste-nav.active-menu{
+
+    .liste-nav.active-menu {
         display: block;
     }
-    body{
-        background-image:url("image/Group 6.png");
+
+    body {
+        background-image: url("image/Group 6.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;/*definir la position de l'image de l'arriere plan si elle est fixée*/
-        background-position-x: 40%;/*definir la position horizontale d'arriere plan*/
-        background-position-y: 85%;/*definir la position verticale de l'arriere plan*/
+        background-attachment: fixed;
+        background-position: 40% 85%;
         background-size: 45%;
     }
-    .myDiv{
-        font-size: x-small;
-         text-align: center;
-         margin-right:175px;
-         margin-left: 135px;
-        margin-top: 125px;
-     }
-     div.btn-toggle-container{
-        margin-right: 70px;
-        margin-top: 25px;
-     }
-     
 
+    .myDiv {
+        font-size: x-small;
+        text-align: center;
+        margin-right: 50%; /* Ajustement de la marge */
+        margin-left: 15px; /* Ajustement de la marge */
+        margin-top: 25%; /* Ajustement de la marge */
+    }
+    p{
+        margin-right:-55%;
+        margin-bottom: 13rem;
+        padding-left:75px;
+     
+    }
+    h1{
+    font-family: sans-serif;
+    font-weight: bolder;  
+   
+    }
+    .text-start {
+        text-align: center!important;
+        margin-right: -115%;
+        margin-left: -30px;
+        margin-top: -25px;
+    }
+
+    div.btn-toggle-container {
+        margin-right: 15px; /* Ajustement de la marge */
+        margin-top: 15px; /* Ajustement de la marge */
+    }
+   
 }
